@@ -1,0 +1,15 @@
+{
+  "name": "MySite",
+  "version": "0.0.0",
+  "description": "MySite",
+  "main": "app.js",
+  "author": {
+    "name": "Vimal",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
