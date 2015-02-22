@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title #{title} - My Express Application
+    title #{title} - SharePoint Consultant, Web Developer
     link(rel='stylesheet', type='text/css', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
     script(src='/javascripts/modernizr-2.6.2.js')
@@ -15,28 +15,28 @@ html
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='/') VimalkumarJ.COM
-        .navbar-collapse.collapse
+          a.navbar-brand(href='/',style='margin-top:-3px;') 
+            span.glyphicon.glyphicon-home
+        div.navbar-collapse.collapse
           ul.nav.navbar-nav
             li
-              a(href='/') Home
-            li
               a(href='/about') About
-            li
+            //li
               a(href='/contact') Contact
-            li
-                span
-         .navbar-collapse.collapse   
-         ul.nav.navbar-nav.navbar-right
+          ul.nav.navbar-nav.navbar-right
             li  
-                a(href='https://www.facebook.com/vimalkumar.jayachandran',title='Facebook')
+                a(href='https://www.facebook.com/vimalkumar.jayachandran',title='Facebook',target='_blank')
                     img(src='/images/logo-facebook.png',title='FaceBook')
             li
-                a(href='https://in.linkedin.com/pub/vimalkumar-j/73/6b6/466',title='LinkedIn')
+                a(href='https://in.linkedin.com/pub/vimalkumar-j/73/6b6/466',title='LinkedIn',target='_blank')
                     img(src='/images/logo-linkedin.png',title='LinkedIn')
             li
-                a(href='https://twitter.com/vimalkumarj',title='Twitter')
-                    img(src='/images/logo-twitter.png',title='Twitter')        
+                a(href='https://twitter.com/vimalkumarj',title='Twitter',target='_blank')
+                    img(src='/images/logo-twitter.png',title='Twitter')
+    .jumbotron
+        h2 Vimalkumar J
+        p.lead SharePoint Consultant and Web Developer. 
+              
     .container.body-content
       block content
       hr
